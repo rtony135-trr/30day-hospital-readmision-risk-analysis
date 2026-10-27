@@ -1,3 +1,38 @@
+/*
+============================================================
+PROJECT: HOSPITAL READMISSION RISK ANALYSIS
+DATABASE: Diabetes 130-US Hospitals (1999–2008)
+TOOL: MySQL Workbench
+============================================================
+
+TABLE OF CONTENTS
+
+1.  Initial Data Exploration
+2.  Data Staging and Preparation
+3.  Missing Value Cleaning
+4.  Patient Record Duplication Analysis
+5.  Patient Cohort Creation and Discharge Exclusions
+6.  ID Mapping Tables
+      6.1 Discharge Disposition Mapping
+      6.2 Admission Source Mapping
+7.  Age Group Transformation
+8.  Exploratory Data Analysis
+      8.1 Distribution of Readmission Outcomes
+      8.2 Readmission by Age Group
+      8.3 Readmission by Admission Source
+      8.4 Medication Utilisation by Age
+      8.5 Preparation of Patient Risk Analysis Dataset
+      8.6 Readmission by Medication Count
+      8.7 Readmission by Primary Diagnosis Category
+      8.8 Readmission by Medication Changes
+      8.9 Readmission by Previous Inpatient Utilisation
+      8.10 Readmission by Previous Outpatient Utilisation
+      8.11 Readmission by Previous Emergency Utilisation
+      8.12 Readmission by Discharge Disposition
+      8.13 Readmission by Length of Hospital Stay
+
+============================================================
+
 SELECT COUNT(*)
 
 -- CHECKING DATA AND CREATING NEW TABLE TO DO CLEANING AND ANALYSIS
